@@ -6,14 +6,14 @@ regex = r"\[(\d+)\]"
 result = re.search(regex, log)
 print(result[1])
 
-# search for aza pattern
+# NORMAL SERACH STRING LITERAL
 print(re.search(r"aza", "plaza"))
 print(re.search(r"aza", "bazaar"))
 
-# ^ circumflex search (begining of line)
+# ^ THE CARET SEARCH FOR  BEGGINING OF STRING
 print(re.search(r"^x", "xenon"))
 
-# search for p.ng pattern
+# SEARCH FOR (ANY CHAR) IN BETWEEN p.ng pattern
 print(re.search(r"p.ng", "penguin"))
 print(re.search(r"p.ng", "clapping"))
 print(re.search(r"p.ng", "sponge"))
