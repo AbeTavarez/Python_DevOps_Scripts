@@ -13,14 +13,15 @@ print(re.search(r'Py[a-z]*n', 'Python Programming'))
 #
 print(re.search(r'Py[a-z]*n', 'Pyn'))
 
-# + letter repetition
+# (+) SEARCH FOR CHAR REPETIOTIONS (OL) WILL MATCH
 print(re.search(r'o+l+', 'goldfish'))
+# MATCHING MUTIPLE REPETITIONS
 print(re.search(r'o+l+', 'woolly'))
-# something that doest'n match
+# HERE ARE NO REPETITIONS OF OO OR LL
 print(re.search(r'o+l+', 'boil'))
 
 # * Optional
-#not included
+# (?) MARKS THE CHAR FEFORE IT AS "OPTIONAL" MEANING ZERO TO ONE OCCURANCES
 print(re.search(r'p?each', 'To each their own'))
-# included
+# HERE (?) WILL MATCH ONCE
 print(re.search(r'p?each', 'I like peaches'))
