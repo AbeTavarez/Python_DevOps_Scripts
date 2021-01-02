@@ -5,7 +5,7 @@ import re
 # The check_web_address function checks if the text passed qualifies as a top - level web address, meaning that it contains alphanumeric characters(which includes letters, numbers, and underscores), as well as periods, dashes, and a plus sign, followed by a period and a character - only top - level domain such as ".com", ".info", ".edu", etc.Fill in the regular expression to do that, using escape characters, wildcards, repetition qualifiers, beginning and end - of - line characters, and character classes
 
 def check_web_address(text):
-    pattern = r'^[A-Za-z][A-Za-z0-9_./-]*[.A-Za-z]$'
+    pattern = r'' ^ [A-Za-z][A-Za-z0-9_.-]*[.\w]$'
     result = re.search(pattern, text)
     print(result)
     return result != None
@@ -33,12 +33,15 @@ print(check_time("9:59 AM"))  # True
 print(check_time("6:60am"))  # False
 print(check_time("five o'clock"))  # False
 
+#! Not quite, check_time(6:02km) returned True, should be
+# False.
+
 
 # Question 3
 # The contains_acronym function checks the text for the presence of 2 or more characters or digits surrounded by parentheses, with at least the first character in uppercase (if it's a letter), returning True if the condition is met, or False otherwise. For example, "Instant messaging (IM) is a set of communication technologies used for text-based communication" should return True since (IM) satisfies the match conditions." Fill in the regular expression in this function:
 
 def contains_acronym(text):
-    pattern = r''
+    pattern = r'\(?[A-Z][A-Za-z0-9]*\)'
     result = re.search(pattern, text)
     return result != None
 
