@@ -1,0 +1,1 @@
+JAN 6 14:04:01 computer.anem CRON[29440]: USER (naughty_user)
