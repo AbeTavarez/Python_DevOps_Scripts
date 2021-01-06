@@ -15,6 +15,8 @@ def show_time_of_pid(line):
 # print(type(result))
 # return f'{result[1]}'
 
+# When searching log files using regex, which regex statement will search for the alphanumeric word "IP" followed by one or more digits wrapped in parentheses using a capturing group?
+#r"IP \((\d+)\)$"
 
 #
 # Jul 6 14:01:23 pid:29440

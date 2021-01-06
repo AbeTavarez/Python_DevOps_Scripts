@@ -6,8 +6,9 @@ import re
 if sys.argv[1]:
     logfile = sys.argv[1]
 else:
+    print('Please include a file path')
     exit(1)
-
+username = {}
 with open(logfile) as f:
     for line in f:
         if 'CRON' not in line:
