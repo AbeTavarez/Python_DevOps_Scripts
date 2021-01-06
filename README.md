@@ -1,8 +1,8 @@
-# Python for OS
+# Python scripts for DevOps
 
 ## Intro
 
-### Create a script
+### How to create a python scripts
 
 - Create a python file `vim script_0.py` type `#!/usr/bin/env python3` on the first line.
 
