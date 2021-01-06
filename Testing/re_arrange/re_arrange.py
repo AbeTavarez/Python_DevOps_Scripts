@@ -7,6 +7,9 @@ import re
 
 def rearrange_name_regex(name):
     result = re.search(r'^([\w .]*), ([\w .]*)', name)
+    # edge case (empty string)
+    if result is None:
+        return ''
     return '{}, {}'.format(result[2], result[1])
 
 

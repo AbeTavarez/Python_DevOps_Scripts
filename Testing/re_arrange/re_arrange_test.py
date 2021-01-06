@@ -16,5 +16,10 @@ class TestRearrange(unittest.TestCase):
         expected = 'Ada, Lovelace'
         self.assertAlmostEqual(rearrange_name_regex(testcase), expected)
 
+    def test_empty(self):
+        testcase = ''
+        expected = ''
+        self.assertEqual(rearrange_name_regex(testcase), expected)
+
 
 unittest.main()
