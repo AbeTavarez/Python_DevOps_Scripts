@@ -27,4 +27,4 @@ Note: Inserting a shebang line (such as #!/usr/bin/env python3) as the first lin
 
 ## Regex Cheatsheet
 
-![regex_cheatsheet](https://res.cloudinary.com/abetavarez/image/upload/v1609986054/Screen_Shot_2021-01-03_at_8.40.38_PM_wyhtfv.pngf)
+![regex_cheatsheet]https://res.cloudinary.com/abetavarez/image/upload/v1608075435/jswristband-sm_zfykwo.jpg)
