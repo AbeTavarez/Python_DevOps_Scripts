@@ -1,4 +1,4 @@
-# Python scripts for DevOps
+# Python 👨🏻‍💻 Scripts for DevOps, SysAdmins, IT Specilist, Devs and more.
 
 ### Note
 The main purpose of this repo is to create a huge collection of useful script for all levels (Beginners to Experts) of 
