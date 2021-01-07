@@ -1,6 +1,6 @@
 # Python 👨🏻‍💻 Scripts for DevOps, SysAdmins, IT Specilist, Devs and more.
 
-### Note
+### Note 📝
 
 The main purpose of this repo is to create a huge collection of useful script for all levels (Beginners to Experts) of
 IT Specialits, SysAdmins, DevOps, Developers and more...
@@ -13,7 +13,7 @@ If you spot any errors please let me know.
 
 Finally don't forget to give the repo a star if you like it. Thanks!
 
-## Intro
+## Intro 🗣
 
 ### How to create a python scripts
 
@@ -25,6 +25,6 @@ Note: Inserting a shebang line (such as #!/usr/bin/env python3) as the first lin
 - On your terminal type `chmod +x script_0.py` to change the file permission.
 - Run the script from the terminal `./script_0.py`
 
-## Regex Cheatsheet
+## Regex Cheatsheet 🕵️‍♀️
 
 ![regex_cheatsheet](https://res.cloudinary.com/abetavarez/image/upload/v1609986054/Screen_Shot_2021-01-03_at_8.40.38_PM_wyhtfv.png)
