@@ -1,0 +1,1 @@
+Counts the frecuency of each character in the given file

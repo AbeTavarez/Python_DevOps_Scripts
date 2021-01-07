@@ -13,12 +13,22 @@ print('Basic Test output -->', rearrange_name_regex('Yaeger, Ereh'))
 class TestRearrange(unittest.TestCase):
     def test_basic(self):
         testcase = 'Lovelace, Ada'
-        expected = 'Ada, Lovelace'
+        expected = 'Ada Lovelace'
         self.assertAlmostEqual(rearrange_name_regex(testcase), expected)
 
     def test_empty(self):
         testcase = ''
         expected = ''
+        self.assertEqual(rearrange_name_regex(testcase), expected)
+
+    def test_double_name(self):
+        testcase = 'Hopper, Grace M.'
+        expected = 'Grace M. Hopper'
+        self.assertEqual(rearrange_name_regex(testcase), expected)
+
+    def test_one_name(self):
+        testcase = 'Mikasa'
+        expected = 'Mikasa'
         self.assertEqual(rearrange_name_regex(testcase), expected)
 
 
