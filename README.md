@@ -1,5 +1,17 @@
 # Python scripts for DevOps
 
+### Note
+The main purpose of this repo is to create a huge collection of useful script for all levels (Beginners to Experts) of 
+IT Specialits, SysAdmins, DevOps, Developers and more...
+
+Please feel free to fork this repo and contribute!
+
+If you want to help with the README you're welcome as well. I want to make it as instructional as possible.
+
+If you spot any errors please let me know. 
+
+Finally don't forget to give the repo a star if you like it. Thanks!
+
 ## Intro
 
 ### How to create a python scripts
