@@ -1,7 +1,7 @@
 
 import math
 
-# *** Calculate aress *** #
+# *** Calculate areas *** #
 
 # * Triangle area
 
