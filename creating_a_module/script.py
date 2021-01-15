@@ -7,8 +7,14 @@ import first_module as fm
 # * Let's use oue 'first_module now'
 
 # * call the triangle function from the 'fm' module
-triangle_area = fm.triangle(5, 3)
-print(triangle_area)
+triangle = fm.triangle(5, 3)
+print(triangle)
 
 # * call the rectangle function from the 'fm' module
-print()
+rectangle = fm.rectangle(8, 4)
+print(rectangle)
+
+
+# * Finally let's call the circle function from the 'fm' module
+circle = fm.circle(6)
+print(circle)
