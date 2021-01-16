@@ -19,4 +19,5 @@ if __name__ == "__main__":
 
 
 # * Now run the script from the command line with the fillowing arguments:
+# * Rememmber you need to be in the same directory the script is located
 # ./sys_args.py 'arg1' 'arg2' 'arg3'
