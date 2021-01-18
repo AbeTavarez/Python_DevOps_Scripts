@@ -9,13 +9,13 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Echo input')
     # adds position based command with it's help message
     parser.add_argument('message', help='Message to echo')
-
+    # adds optional argument, storing it as a boolean
     parser.add_argument('--twice', '-t', help='Do it twice',
                         action='store_true')
-
+    # Use the parser to parse the arguments
     args = parser.parse_args()
-
+    # Now we have access the arguments value by their names
     print(args.message)
-
+    # the (--) is removed from (--twice)
     if args.twice:
         print(args.message)
