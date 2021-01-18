@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+# * Getting arguments from the terminal in a vanilla way(no modules).
+
+
 # We need the sys module
 import sys
 
@@ -7,6 +10,9 @@ import sys
 def user_greeting(greeting, name):
     message = f'{greeting} {name}'
     print(message)
+
+
+# The expression (if __name__ == '__main__':) will test if we are running the script from the terminal.
 
 
 if __name__ == '__main__':
