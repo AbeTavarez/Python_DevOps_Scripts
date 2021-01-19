@@ -1,4 +1,4 @@
-#!/usr/bin/env/ python3
+#!/usr/bin/env python3
 
 # * Using Argparse module to handle command line arguments
 
@@ -19,3 +19,8 @@ if __name__ == '__main__':
     # the (--) is removed from (--twice)
     if args.twice:
         print(args.message)
+
+
+# * Now you can execute this script with:
+#   ./using_argparse.py hello there!
+#   ./using_argparse.py hello there! --twice
