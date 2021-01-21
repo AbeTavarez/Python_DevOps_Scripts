@@ -30,3 +30,11 @@ def worker():
 def list_workers():
     workers_list = ['alpha', 'bravo', 'charlie']
     print(f"Workers: {','.join(workers_list)}")
+
+
+@cli.command(help='Talk to worker')
+@click.option('--greeting', default='Whats up bro?', help='Greating from admin')
+@click.argument('name')
+def admins(greeting, name):
+    message = f'{greeting} {name}'
+    print(message)
