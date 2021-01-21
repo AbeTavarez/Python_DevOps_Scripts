@@ -10,9 +10,23 @@ def cli():
     pass
 
 
-@click.group(help='Spawn worker')
+@click.group(help='Worker related commands')
 def workers():
-    worker_name = 'Main worker'
+  # * Create a group to to hold the workers commands
+    pass
 
 
+# * Adds the workers group as a command to top level group
 cli.add_command(workers)
+
+
+@workers.group(help='Spawn new worker')
+def worker():
+    worker_name = 'Main worker'
+    print(f"{worker_name} is now spawing...")
+
+
+@workers.command(help='List all of the workers')
+def list_workers():
+    workers_list = ['alpha', 'bravo', 'charlie']
+    print(f"Workers: {','.join(workers_list)}")
