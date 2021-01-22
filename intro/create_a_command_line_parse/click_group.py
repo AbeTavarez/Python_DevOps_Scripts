@@ -38,3 +38,7 @@ def list_workers():
 def admins(greeting, name):
     message = f'{greeting} {name}'
     print(message)
+
+
+if __name__ == '__main__':
+    cli()
