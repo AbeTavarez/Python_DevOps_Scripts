@@ -8,4 +8,4 @@ def greet(greeting='hey', name='abe'):
 
 
 if __name__ == '__main__':
-    fire.Fire(greet)
+    fire.Fire()
