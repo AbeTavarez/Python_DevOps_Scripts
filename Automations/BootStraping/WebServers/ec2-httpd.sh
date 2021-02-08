@@ -18,4 +18,4 @@ systemctl start httpd.service
 # Enables httpd service auto-restart if instance gets re-started
 systemctl enable http.service
 # -OPTIONAL: Overwrites apache welcome index.html file with instance name
-echo "$(hostname -f) is now running..." > /var/www/html/index.html 
+echo "Welcome $(hostname -f) is now running..." > /var/www/html/index.html 
