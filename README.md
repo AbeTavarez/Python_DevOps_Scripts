@@ -35,7 +35,9 @@ Note: Inserting a shebang line (such as #!/usr/bin/env python3) as the first lin
 
 `ssh -p 2220 bandit0@bandit.labs.overthewire.org`
 
-- You can practice SSH and Linux at ![link](https://overthewire.org/wargames/bandit/bandit0.html)
+- Sometimes you'll need a certificate or keys to ssh to some systems.
+
+- You can practice SSH and Linux in this link -> (https://overthewire.org/wargames/bandit/bandit0.html)
 
 ## Regex Cheatsheet 🕵️‍♀️
 
