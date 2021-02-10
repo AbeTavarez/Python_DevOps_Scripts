@@ -25,6 +25,18 @@ Note: Inserting a shebang line (such as #!/usr/bin/env python3) as the first lin
 - On your terminal type `chmod +x script_0.py` to change the file permission.
 - Run the script from the terminal `./script_0.py`
 
+### How to SSH
+
+- You can SSH to another computer by:
+
+`ssh -p <enter port number> username@ip.address`
+
+- Here is an example:
+
+`ssh -p 2220 bandit0@bandit.labs.overthewire.org`
+
+- You can practice SSH and Linux at ![link](https://overthewire.org/wargames/bandit/bandit0.html)
+
 ## Regex Cheatsheet 🕵️‍♀️
 
 ![regex_cheatsheet](https://res.cloudinary.com/abetavarez/image/upload/v1609986054/Screen_Shot_2021-01-03_at_8.40.38_PM_wyhtfv.png)
