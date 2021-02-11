@@ -15,6 +15,10 @@ Finally don't forget to give the repo a star if you like it. Thanks!
 
 ## Intro 🗣
 
+### Python Cheatsheet
+
+- Here is a nice handy python cheatsheet (https://overapi.com/python)
+
 ### How to create a python scripts
 
 - Create a python file `vim script_0.py` type `#!/usr/bin/env python3` on the first line.
