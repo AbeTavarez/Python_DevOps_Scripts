@@ -1,5 +1,6 @@
 import os # OS module provides a portable way of using operating system-dependent functionality
-import csv # which is used to store tabular data or spreadsheet file format, which uses comma as delimiter or separator, and such files are known as CSV files.
+import csv # which is used to store tabular data or spreadsheet file format, which uses comma as delimiter or separator, and such filesare known as CSV files.
+ #import contains inbuilt functions to use
 
 # Create a file with data in it
 
